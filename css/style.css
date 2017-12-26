@@ -1,0 +1,46 @@
+/*Фон для секций*/
+
+.section:first-child {
+  background: #0033ff;
+}
+
+.section:nth-child(2) {
+  background: #e1ff00;
+}
+
+.section:last-child {
+  background: #14db1b;
+}
+
+
+/*Меню*/
+.navbar {
+  min-height: 40px;
+}
+
+.nav > li > a:focus {
+  background:red;
+}
+
+
+.container {
+  border: 1px solid red;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 
+}
+.slide {
+  text-align: center;
+  font-size: 100px;
+  border: 1px solid green;
+  margin: 0;
+  padding: 0;
+}
+
+.slider {
+  background-image: url(https://www.imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

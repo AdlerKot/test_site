@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*Фон для секций*/
+.slide:first-child {
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://www.imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.slide:nth-child(2) {
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://static.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.slide:nth-child(3) {
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_1280.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.slide:last-child {
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://static.pexels.com/photos/34950/pexels-photo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.section:first-child {
+  background: red; }
+
+.section:nth-child(2) {
+  background: green; }
+
+.section:last-child {
+  background: pink; }
+
+/*Меню*/
+.navbar {
+  min-height: 40px; }
+
+.nav > li > a:focus {
+  background: red; }
+
+.container {
+  border: 1px solid red; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+/*# sourceMappingURL=main.css.map */

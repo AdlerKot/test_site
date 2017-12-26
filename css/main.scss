@@ -1,0 +1,66 @@
+/*Фон для секций*/
+$first-bg: red;
+$second-bg: green;
+$third-bg: pink;
+$bg-img1: url(https://www.imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg);
+$bg-img2: url(https://static.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg);
+$bg-img3: url(https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634_1280.png);
+$bg-img4: url(https://static.pexels.com/photos/34950/pexels-photo.jpg);
+
+
+
+@mixin slider-bg($bg-color) {
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  background-image: $bg-color;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+}
+
+.slide:first-child {
+  @include slider-bg($bg-img1);
+}
+.slide:nth-child(2) {
+  @include slider-bg($bg-img2);
+}
+.slide:nth-child(3) {
+  @include slider-bg($bg-img3);
+}
+.slide:last-child {
+  @include slider-bg($bg-img4);
+}
+
+.section:first-child {
+    background: $first-bg;
+  }
+  
+  .section:nth-child(2) {
+    background:$second-bg;
+  }
+  
+  .section:last-child {
+    background:$third-bg;
+  }
+  /*Меню*/
+  .navbar {
+    min-height: 40px;
+  }
+  
+  .nav > li > a:focus {
+    background:red;
+  }
+  
+  
+  .container {
+    border: 1px solid red;
+  }
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .slide {
+  }
+  
